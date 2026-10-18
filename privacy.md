@@ -32,7 +32,7 @@ No audio, transcription text, or personal information is included in this downlo
 
 Murmur does not integrate with any third-party analytics, advertising, or tracking services.
 
-The app uses [WhisperKit](https://github.com/argmaxinc/WhisperKit), an open-source framework that runs entirely on-device. ML models are hosted by Hugging Face and downloaded directly to your Mac.
+Speech processing runs entirely on-device using the Parakeet speech model (the default) or Apple's built-in speech recognition. The Parakeet model is an open-weight ML model hosted by Hugging Face and downloaded directly to your Mac.
 
 ## Data Retention
 
