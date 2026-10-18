@@ -7,7 +7,7 @@ title: Murmur — Private Speech-to-Text for macOS
 
 **Fast, private speech-to-text that never leaves your Mac.**
 
-Murmur is a macOS app that transcribes your speech in real time using on-device machine learning. Powered by [WhisperKit](https://github.com/argmaxinc/WhisperKit), all audio processing happens locally on your Mac — nothing is ever sent to the cloud.
+Murmur is a macOS app that transcribes your speech in real time using on-device machine learning. Powered by the Parakeet speech model (the default) and Apple's built-in speech recognition, all audio processing happens locally on your Mac — nothing is ever sent to the cloud.
 
 ## Key Features
 
@@ -15,7 +15,7 @@ Murmur is a macOS app that transcribes your speech in real time using on-device 
 - **Privacy-first design** — No analytics, no tracking, no accounts. Your words stay on your Mac.
 - **Fast transcription** — Optimized for Apple Silicon with hardware-accelerated ML inference.
 - **Global hotkey** — Start and stop transcription from anywhere with a keyboard shortcut.
-- **Multiple languages** — Support for a wide range of languages through Whisper models.
+- **Multiple languages** — The default engine auto-detects and transcribes 25 European languages.
 
 ## How It Works
 

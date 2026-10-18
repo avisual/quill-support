@@ -13,7 +13,7 @@ Murmur is built on a simple principle: your voice stays on your device. This pri
 
 **None.** Murmur does not collect, store, or transmit any personal data. Specifically:
 
-- **Audio data** is processed entirely on your device using WhisperKit. No audio is recorded, uploaded, or sent to any server.
+- **Audio data** is processed entirely on your device (Parakeet model or Apple's built-in speech recognition). No audio is recorded, uploaded, or sent to any server.
 - **Transcriptions** remain on your device. Murmur does not store transcription history or send transcribed text anywhere.
 - **Usage data** is not collected. There are no analytics, telemetry, or tracking of any kind.
 - **Account information** does not exist. Murmur does not require or support user accounts.
