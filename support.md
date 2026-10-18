@@ -5,7 +5,7 @@ title: Support — Murmur
 
 # Support
 
-Murmur is a macOS speech-to-text app that transcribes your voice locally on your Mac using WhisperKit. No data ever leaves your device.
+Murmur is a macOS speech-to-text app that transcribes your voice locally on your Mac. No data ever leaves your device. Speech is handled on-device by the Parakeet model (the default) or Apple's built-in speech recognition; you can switch between them in Settings.
 
 ## System Requirements
 
@@ -36,7 +36,7 @@ Murmur downloads ML models from Hugging Face on first launch. If the download fa
 
 - Speak clearly and at a natural pace.
 - Reduce background noise where possible.
-- Try a larger model for better accuracy (larger models require more memory and processing time).
+- Try the other engine in Settings (Parakeet is the default; Apple's built-in speech recognition is the alternative).
 - Make sure the correct microphone is selected in the app settings.
 
 ### The global hotkey is not working
