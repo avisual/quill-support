@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Support — Murmur
+title: Support — Quill
 ---
 
 # Support
 
-Murmur is a macOS speech-to-text app that transcribes your voice locally on your Mac. No data ever leaves your device. Speech is handled on-device by the Parakeet model (the default) or Apple's built-in speech recognition; you can switch between them in Settings.
+Quill is a macOS speech-to-text app that transcribes your voice locally on your Mac. No data ever leaves your device. Speech is handled on-device by the Parakeet model (the default) or Apple's built-in speech recognition; you can switch between them in Settings.
 
 ## System Requirements
 
@@ -17,20 +17,20 @@ Murmur is a macOS speech-to-text app that transcribes your voice locally on your
 
 ### Microphone permissions
 
-Murmur needs access to your microphone to transcribe speech.
+Quill needs access to your microphone to transcribe speech.
 
 1. Open **System Settings** > **Privacy & Security** > **Microphone**.
-2. Find Murmur in the list and make sure it is enabled.
-3. If Murmur is not listed, try launching it again — macOS will prompt you for permission on first use.
+2. Find Quill in the list and make sure it is enabled.
+3. If Quill is not listed, try launching it again — macOS will prompt you for permission on first use.
 
 ### Model download issues
 
-Murmur downloads ML models from Hugging Face on first launch. If the download fails:
+Quill downloads ML models from Hugging Face on first launch. If the download fails:
 
 - Check your internet connection.
 - Make sure your firewall or VPN is not blocking connections to `huggingface.co`.
 - Try quitting and relaunching the app.
-- If the problem persists, delete any partially downloaded models in `~/Library/Application Support/Murmur/` and relaunch.
+- If the problem persists, delete any partially downloaded models in `~/Library/Application Support/Quill/` and relaunch.
 
 ### Transcription quality
 
@@ -41,13 +41,13 @@ Murmur downloads ML models from Hugging Face on first launch. If the download fa
 
 ### The global hotkey is not working
 
-- Verify the hotkey is configured in Murmur's settings.
+- Verify the hotkey is configured in Quill's settings.
 - Check that another app is not using the same keyboard shortcut.
 - Try changing the hotkey combination in settings.
 
 ## Get Help
 
-If your issue is not listed here, please open an issue on our [GitHub repository](https://github.com/avisual/murmur-support/issues). Include:
+If your issue is not listed here, please open an issue on our [GitHub repository](https://github.com/avisual/quill-support/issues). Include:
 
 - Your macOS version
 - Your Mac model (e.g., MacBook Air M2)

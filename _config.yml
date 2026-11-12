@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-title: Murmur
+title: Quill
 description: Private, local speech-to-text for macOS
 url: https://avisual.github.io
-baseurl: /murmur-support
+baseurl: /quill-support

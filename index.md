@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Murmur — Private Speech-to-Text for macOS
+title: Quill — Private Speech-to-Text for macOS
 ---
 
-# Murmur
+# Quill
 
 **Fast, private speech-to-text that never leaves your Mac.**
 
-Murmur is a macOS app that transcribes your speech in real time using on-device machine learning. Powered by the Parakeet speech model (the default) and Apple's built-in speech recognition, all audio processing happens locally on your Mac — nothing is ever sent to the cloud.
+Quill is a macOS app that transcribes your speech in real time using on-device machine learning. Powered by the Parakeet speech model (the default) and Apple's built-in speech recognition, all audio processing happens locally on your Mac — nothing is ever sent to the cloud.
 
 ## Key Features
 
@@ -20,7 +20,7 @@ Murmur is a macOS app that transcribes your speech in real time using on-device 
 ## How It Works
 
 1. Press your global hotkey to start listening.
-2. Murmur captures audio from your microphone and transcribes it on-device.
+2. Quill captures audio from your microphone and transcribes it on-device.
 3. The transcribed text is placed wherever your cursor is.
 
 No audio ever leaves your Mac. No account required. No internet connection needed after the initial model download.
