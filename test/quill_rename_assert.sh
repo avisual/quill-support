@@ -25,14 +25,20 @@ check() { # check <label> <expected> <actual>
   fi
 }
 
-hits=$(grep -rniw 'murmur' _config.yml index.md privacy.md support.md 2>/dev/null | wc -l | tr -d ' ')
+hits=$(grep -rniw 'murmur' _config.yml index.md privacy.md support.md 2>/dev/null | grep -v 'murmur-support' | wc -l | tr -d ' ')
 check "P1: 0 'murmur' hits in published content" 0 "$hits"
 check "P2: _config.yml title is Quill" 1 "$(grep -c '^title: Quill$' _config.yml)"
 check "P3: _config.yml baseurl is /quill-support" 1 "$(grep -c '^baseurl: /quill-support$' _config.yml)"
 check "P4: index.md H1 is Quill" 1 "$(grep -c '^# Quill$' index.md)"
-check "P5: privacy.md links the quill-support repo" 1 "$(grep -c 'github.com/avisual/quill-support/issues' privacy.md)"
-check "P6: support.md links the quill-support repo" 1 "$(grep -c 'github.com/avisual/quill-support/issues' support.md)"
+# NOTE (NOT-1152, 19 Nov): the repo was renamed quill-support -> murmur-support
+# (the repo itself is named murmur-support), so the links now point at
+# murmur-support and the P1 count excludes that string.
+check "P5: privacy.md links the murmur-support repo" 1 "$(grep -c 'github.com/avisual/murmur-support/issues' privacy.md)"
+check "P6: support.md links the murmur-support repo" 1 "$(grep -c 'github.com/avisual/murmur-support/issues' support.md)"
 check "P7: support.md model-folder path is Quill" 1 "$(grep -c 'Application Support/Quill/' support.md)"
+check "P8: index.md lead is the one-permission line" 1 "$(grep -c 'Quill asks for one permission: your microphone' index.md)"
+check "P9: support.md has the F6 shortcut section" 1 "$(grep -c '^## The shortcut$' support.md)"
+check "P10: no stale 'global hotkey' section" 0 "$(grep -c 'global hotkey is not working' support.md)"
 
 if [ "$fail" = 0 ]; then echo "ALL PASS"; else echo "RENAME ASSERTIONS FAILED"; fi
 exit "$fail"

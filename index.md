@@ -5,25 +5,27 @@ title: Quill — Private Speech-to-Text for macOS
 
 # Quill
 
-**Fast, private speech-to-text that never leaves your Mac.**
+**Quill asks for one permission: your microphone.**
 
-Quill is a macOS app that transcribes your speech in real time using on-device machine learning. Powered by the Parakeet speech model (the default) and Apple's built-in speech recognition, all audio processing happens locally on your Mac — nothing is ever sent to the cloud.
+Quill is a macOS app that turns your voice into text on your Mac. Hold F6, speak, let go — your words appear where your cursor is, in TextEdit, Chrome, Terminal and other apps that accept typed text. Speech is transcribed on-device — the Parakeet speech model by default, or Apple's built-in speech recognition — and your voice is never sent to the cloud.
 
 ## Key Features
 
-- **Completely local processing** — Your audio is transcribed on-device using Apple Silicon. No servers, no uploads, no cloud.
-- **Privacy-first design** — No analytics, no tracking, no accounts. Your words stay on your Mac.
-- **Fast transcription** — Optimized for Apple Silicon with hardware-accelerated ML inference.
-- **Global hotkey** — Start and stop transcription from anywhere with a keyboard shortcut.
-- **Multiple languages** — The default engine auto-detects and transcribes 25 European languages.
+- **One permission** — Quill asks for your microphone and nothing else. No Accessibility, no keyboard monitoring, no clipboard access, no screen access.
+- **Completely local processing** — Your audio is transcribed on-device. No servers, no uploads, no cloud.
+- **Runs on Apple Silicon** — transcription happens on your Mac.
+- **Hold F6, let go** — set the shortcut once; Quill shows you exactly where to click.
+- **English dictation** — tested and supported for English.
 
 ## How It Works
 
-1. Press your global hotkey to start listening.
-2. Quill captures audio from your microphone and transcribes it on-device.
-3. The transcribed text is placed wherever your cursor is.
+1. Set up a shortcut once — Quill shows you exactly where to click.
+2. **Hold F6 and speak.**
+3. **Let go** — Quill transcribes on your Mac and types your words where your cursor is.
 
-No audio ever leaves your Mac. No account required. No internet connection needed after the initial model download.
+In Terminal with Secure Keyboard Entry and in password fields, press F6 again to finish. If F6 is a media key on your keyboard, press fn+F6.
+
+**Your voice and your words never leave your Mac. Quill only goes online to download its speech model.**
 
 ## Requirements
 

@@ -5,7 +5,7 @@ title: Privacy Policy — Quill
 
 # Privacy Policy
 
-**Effective date: March 22, 2026**
+**Effective date: November 19, 2026**
 
 Quill is built on a simple principle: your voice stays on your device. This privacy policy explains how the app handles your data.
 
@@ -24,9 +24,18 @@ We don't. All speech-to-text processing happens locally on your Mac using on-dev
 
 ## Network Activity
 
-The only network activity Quill performs is downloading machine learning models from [Hugging Face](https://huggingface.co/) when you first set up the app or choose a new model. This is a one-time download. Once models are stored locally, Quill does not require an internet connection to function.
+Quill's only network calls:
 
-No audio, transcription text, or personal information is included in this download.
+- **Speech-model download** from [Hugging Face](https://huggingface.co/) — all builds, only when the model is not already cached on your Mac.
+- **Update check** (Sparkle) — direct build only. No system profile is sent.
+- **Licence check** with Creem — direct build only (licence key, an anonymous Mac ID, app version).
+
+No audio, transcription text, or personal information is included in any of these. There is no telemetry, analytics, or tracking of any kind.
+
+The App Store and Setapp builds make only the speech-model download. In full, per build:
+
+- **App Store and Setapp:** Your voice and your words never leave your Mac. Quill only goes online to download its speech model.
+- **Direct download:** Your voice and your words never leave your Mac. Quill only goes online to download its speech model, check for updates and check your licence.
 
 ## Third-Party Services
 
@@ -48,4 +57,4 @@ If this privacy policy changes, the updated version will be posted on this page 
 
 ## Contact
 
-If you have questions about this privacy policy, please open an issue on our [GitHub repository](https://github.com/avisual/quill-support/issues).
+If you have questions about this privacy policy, please open an issue on our [GitHub repository](https://github.com/avisual/murmur-support/issues).
