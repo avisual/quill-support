@@ -23,7 +23,7 @@ Quill is a macOS app that turns your voice into text on your Mac. Hold F6, speak
 2. **Hold F6 and speak.**
 3. **Let go** — Quill transcribes on your Mac and types your words where your cursor is.
 
-In Terminal with Secure Keyboard Entry and in password fields, press F6 again to finish. If F6 is a media key on your keyboard, press fn+F6.
+In Terminal with Secure Keyboard Entry and in password fields, press F6 again to finish.
 
 **Your voice and your words never leave your Mac. Quill only goes online to download its speech model.**
 

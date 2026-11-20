@@ -19,9 +19,7 @@ Quill is a macOS speech-to-text app that turns your voice into text locally on y
 
 Once set, **hold F6 and speak**, and **let go when you're done — Quill transcribes on your Mac and types the words where your cursor is**. In the places where your Mac keeps keyboard input secret — Terminal with Secure Keyboard Entry, and password fields — Quill can't see the moment you let go, so **press F6 again to finish**.
 
-If F6 is a media key on your keyboard, press **fn+F6**.
-
-Prefer a different shortcut? Quill's Settings › How Quill types shows you how to change or clear it. Use a function key on its own (F6 works) or a key with ⌘, ⌥ or ⌃; a letter on its own will not work.
+Prefer another key? Quill's settings let you choose.
 
 ## Common Issues
 
@@ -53,7 +51,7 @@ Quill downloads ML models from Hugging Face on first launch. If the download fai
 
 - Quill must be running in the menu bar — F6 works while Quill is open.
 - If F6 is a media key on your keyboard (brightness/volume), press **fn+F6**.
-- Or pick a different shortcut: Quill's Settings › How Quill types shows you how to change or clear it. Use a function key on its own (F6 works) or a key with ⌘, ⌥ or ⌃; a letter on its own will not work.
+- Prefer another key? Quill's settings let you choose.
 - Check that another app or service isn't using the same key.
 
 ### The words don't appear in Terminal or a password field
@@ -62,7 +60,7 @@ Those fields keep keyboard input secret (Secure Keyboard Entry). Quill can't see
 
 ### Change or clear the F6 shortcut
 
-Quill's Settings › How Quill types shows you how to change or clear it. Use a function key on its own (F6 works) or a key with ⌘, ⌥ or ⌃; a letter on its own will not work.
+Prefer another key? Quill's settings let you choose.
 
 ## Get Help
 
