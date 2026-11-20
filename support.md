@@ -17,7 +17,7 @@ Quill is a macOS speech-to-text app that turns your voice into text locally on y
 
 **Set up a shortcut once — Quill shows you exactly where to click.**
 
-Once set, **hold F6 and speak**, and **let go when you're done — Quill transcribes on your Mac and types the words where your cursor is**. In the places where your Mac keeps keyboard input secret — Terminal with Secure Keyboard Entry, and password fields — Quill can't see the moment you let go, so **press F6 again to finish**.
+Once set, **hold your shortcut key and speak**, and **let go when you're done — Quill transcribes on your Mac and types the words where your cursor is**. In the places where your Mac keeps keyboard input secret — Terminal with Secure Keyboard Entry, and password fields — Quill can't see the moment you let go, so **press the key again to finish**.
 
 Prefer another key? Quill's settings let you choose.
 
@@ -47,18 +47,18 @@ Quill downloads ML models from Hugging Face on first launch. If the download fai
 - Try the other engine in Settings (Parakeet is the default; Apple's built-in speech recognition is the alternative).
 - Make sure the correct microphone is selected in the app settings.
 
-### F6 does nothing
+### The shortcut key does nothing
 
-- Quill must be running in the menu bar — F6 works while Quill is open.
-- If F6 is a media key on your keyboard (brightness/volume), press **fn+F6**.
+- Quill must be running in the menu bar — your shortcut key works while Quill is open.
+- If your key is a media key (brightness/volume), hold **fn** while pressing it.
 - Prefer another key? Quill's settings let you choose.
 - Check that another app or service isn't using the same key.
 
 ### The words don't appear in Terminal or a password field
 
-Those fields keep keyboard input secret (Secure Keyboard Entry). Quill can't see you let go of F6 there, so press **F6 again to finish** — then the words are typed.
+Those fields keep keyboard input secret (Secure Keyboard Entry). Quill can't see you let go of your shortcut key there, so press **the key again to finish** — then the words are typed.
 
-### Change or clear the F6 shortcut
+### Change or clear the shortcut
 
 Prefer another key? Quill's settings let you choose.
 
